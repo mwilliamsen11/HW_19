@@ -1,0 +1,121 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.inline-block {
+    display: inline-block;
+  }
+  
+  .nav-container {
+      display: flex;
+      justify-content: space-between;
+  }
+
+  .w-100-P {
+      width: 100%;
+  }
+  
+  .logo {
+    height: 200px;
+    padding: 0;
+    margin-left: 75px;
+    text-align: center;
+  }
+
+  nav {
+    width: 40%;
+  }
+
+  .navlinks {
+    width: 100%;
+    margin: 0;
+}
+
+.navlinks li {
+    margin: 0 15px;
+}
+  
+  
+  .heroIMg {
+    height: 600px;
+    padding: 25px;
+  }
+  
+  .content {
+    width: 500px;
+    margin: 0 auto;
+  }
+  
+  footer {
+    background-color: #373738;
+    padding: 30px;
+  }
+  
+  ul {
+    display: inline-block;
+    vertical-align: top;
+    padding: 80px;
+  }
+
+.flexContainer {
+    display: flex;
+    width: 100vw;
+}
+
+.workGrid {
+    display: grid;
+    grid-template-rows: auto auto auto;
+}
+
+.skills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 50px;
+    width: 33%;
+}
+.skills p{
+    text-align: center;
+}
+.mySkills h1{
+    text-align: center;
+}
+
+.border-blue {
+    border: 5px blue solid;
+}
+
+.border-red {
+    border: 5px red solid;
+}
+.border-green {
+    border: 5px green solid;
+}
+
+.work {
+    display: flex;
+    margin: 10px 0px;
+}
+.work-image {
+    width: 30%;
+}
+
+.work-image img {
+    height: 100%;
+    width: 100%;
+}
+
+.work-description {
+    width: 70%;
+    padding-left: 50px;
+    
+}
+.work-description h4{
+    font-size: 48px;
+}
+.My-Work h1, h3{
+    text-align: center;
+}
