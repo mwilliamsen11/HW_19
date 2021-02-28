@@ -55,3 +55,18 @@ function contactFunc1()
 {  
    contact.setAttribute("style", "text-decoration:none;")
 }
+
+
+var contact = document.getElementById("contact");
+contact.addEventListener("mouseover", contactFunc, false);
+contact.addEventListener("mouseout", contactFunc1, false);
+
+function contactFunc()
+{  
+   contact.setAttribute("style", "text-decoration:underline;")
+}
+
+function contactFunc1()
+{  
+   contact.setAttribute("style", "text-decoration:none;")
+}
