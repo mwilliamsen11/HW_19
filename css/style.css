@@ -1,6 +1,47 @@
 body {
     padding: 0;
     margin: 0;
+    background-color: #E7E7E1;
+}
+
+h5 {
+    color: #FEFEFE;
+    font-family: orpheuspro,serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 100px;
+}
+
+h1 {
+    color: black;
+    font-family: orpheuspro,serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 50px;
+}
+
+h2 {
+    color: black;
+    font-family: proxima-nova,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 25px;
+}
+
+h3 {
+    color: black;
+    font-family: proxima-nova,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+}
+
+p {
+    color: black;
+    font-family: proxima-nova,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
 }
 
 .inline-block {
@@ -17,7 +58,7 @@ body {
   }
   
   .logo {
-    height: 200px;
+    height: 100px;
     padding: 0;
     margin-left: 75px;
     text-align: center;
@@ -38,7 +79,7 @@ body {
   
   
   .heroIMg {
-    height: 600px;
+    height: 200px;
     padding: 25px;
   }
   
@@ -48,7 +89,7 @@ body {
   }
   
   footer {
-    background-color: #373738;
+    background-color: #E7E7E1;
     padding: 30px;
   }
   
@@ -101,6 +142,7 @@ body {
 }
 .work-image {
     width: 30%;
+    padding: 25px;
 }
 
 .work-image img {
@@ -113,9 +155,12 @@ body {
     padding-left: 50px;
     
 }
-.work-description h4{
-    font-size: 48px;
+.work-description h2{
+    font-size: 25px;
 }
 .My-Work h1, h3{
+    text-align: center;
+}
+.All-Projects {
     text-align: center;
 }
